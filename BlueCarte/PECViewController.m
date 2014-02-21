@@ -27,6 +27,8 @@
     
     NSLog(@"12");
     
+    NSLog(@"authorized");
+    
 }
 
 - (void)didReceiveMemoryWarning
