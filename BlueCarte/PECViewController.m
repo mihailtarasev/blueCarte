@@ -19,16 +19,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    
-    NSLog(@"Parallels");
-    
-    NSLog(@"2");
-    
-    
-    NSLog(@"12");
-    
-    NSLog(@"authorized");
-    
 }
 
 - (void)didReceiveMemoryWarning

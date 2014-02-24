@@ -22,6 +22,7 @@
 		84485FCF18B748D1004B55FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84485FAE18B748D1004B55FD /* UIKit.framework */; };
 		84485FD718B748D1004B55FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84485FD518B748D1004B55FD /* InfoPlist.strings */; };
 		84485FD918B748D1004B55FD /* BlueCarteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84485FD818B748D1004B55FD /* BlueCarteTests.m */; };
+		84D82EC418BB39E7003529F4 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D82EC218BB39E7003529F4 /* Model.xcdatamodeld */; };
 		84EB000018B755C50009C741 /* clock_ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EBFFD518B755C50009C741 /* clock_ico.png */; };
 		84EB000118B755C50009C741 /* date_ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EBFFD618B755C50009C741 /* date_ico.png */; };
 		84EB000218B755C50009C741 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EBFFD718B755C50009C741 /* Default.png */; };
@@ -100,6 +101,7 @@
 		84485FD418B748D1004B55FD /* BlueCarteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlueCarteTests-Info.plist"; sourceTree = "<group>"; };
 		84485FD618B748D1004B55FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84485FD818B748D1004B55FD /* BlueCarteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueCarteTests.m; sourceTree = "<group>"; };
+		84D82EC318BB39E7003529F4 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		84EB002118B771930009C741 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		84EB002218B771930009C741 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		84EBFFC718B755C50009C741 /* ava_small1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ava_small1.png; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 		84EBFFC518B755BC0009C741 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				84D82EC218BB39E7003529F4 /* Model.xcdatamodeld */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 				84485FC418B748D1004B55FD /* PECViewController.m in Sources */,
 				84485FB718B748D1004B55FD /* main.m in Sources */,
 				84485FBB18B748D1004B55FD /* PECAppDelegate.m in Sources */,
+				84D82EC418BB39E7003529F4 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,6 +693,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84D82EC218BB39E7003529F4 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84D82EC318BB39E7003529F4 /* Model.xcdatamodel */,
+			);
+			currentVersion = 84D82EC318BB39E7003529F4 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 84485F9F18B748D0004B55FD /* Project object */;
 }
