@@ -23,6 +23,51 @@
 		84485FD718B748D1004B55FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84485FD518B748D1004B55FD /* InfoPlist.strings */; };
 		84485FD918B748D1004B55FD /* BlueCarteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84485FD818B748D1004B55FD /* BlueCarteTests.m */; };
 		84D82EC418BB39E7003529F4 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D82EC218BB39E7003529F4 /* Model.xcdatamodeld */; };
+		84D82F5918BB4229003529F4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D82F5818BB4229003529F4 /* CoreData.framework */; };
+		84D82F6E18BB50F2003529F4 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F6718BB50F2003529F4 /* TPKeyboardAvoidingCollectionView.m */; };
+		84D82F6F18BB50F2003529F4 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F6918BB50F2003529F4 /* TPKeyboardAvoidingScrollView.m */; };
+		84D82F7018BB50F2003529F4 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F6B18BB50F2003529F4 /* TPKeyboardAvoidingTableView.m */; };
+		84D82F7118BB50F2003529F4 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F6D18BB50F2003529F4 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		84D82FA218BB5191003529F4 /* PECActionScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D82F7218BB518F003529F4 /* PECActionScreen.xib */; };
+		84D82FA418BB5191003529F4 /* PECAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F7518BB518F003529F4 /* PECAnnotation.m */; };
+		84D82FA518BB5191003529F4 /* PECBuilderCards.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F7718BB518F003529F4 /* PECBuilderCards.m */; };
+		84D82FA618BB5191003529F4 /* PECBuilderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F7918BB518F003529F4 /* PECBuilderModel.m */; };
+		84D82FA718BB5191003529F4 /* PECDetailViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F7B18BB518F003529F4 /* PECDetailViewCtrl.m */; };
+		84D82FA818BB5191003529F4 /* PECMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F7D18BB518F003529F4 /* PECMainModel.m */; };
+		84D82FA918BB5191003529F4 /* PECMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F7F18BB518F003529F4 /* PECMainViewController.m */; };
+		84D82FAA18BB5191003529F4 /* PECMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F8118BB518F003529F4 /* PECMapViewController.m */; };
+		84D82FAB18BB5191003529F4 /* PECMenuViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F8318BB518F003529F4 /* PECMenuViewCtrl.m */; };
+		84D82FAC18BB5191003529F4 /* PECModelDataCards.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F8518BB5190003529F4 /* PECModelDataCards.m */; };
+		84D82FAD18BB5191003529F4 /* PECModelDataUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F8718BB5190003529F4 /* PECModelDataUser.m */; };
+		84D82FAE18BB5191003529F4 /* PECModelsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F8918BB5190003529F4 /* PECModelsData.m */; };
+		84D82FAF18BB5191003529F4 /* PECModelUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F8B18BB5190003529F4 /* PECModelUser.m */; };
+		84D82FB018BB5191003529F4 /* PECNetworkDataCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F8D18BB5190003529F4 /* PECNetworkDataCtrl.m */; };
+		84D82FB118BB5191003529F4 /* PECObjectCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F8F18BB5190003529F4 /* PECObjectCard.m */; };
+		84D82FB218BB5191003529F4 /* PECPriceViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F9118BB5190003529F4 /* PECPriceViewCtrl.m */; };
+		84D82FB318BB5191003529F4 /* PECRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F9318BB5190003529F4 /* PECRegistrationViewController.m */; };
+		84D82FB418BB5191003529F4 /* PECRegViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F9518BB5190003529F4 /* PECRegViewCtrl.m */; };
+		84D82FB518BB5191003529F4 /* PECRestoranViewCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F9718BB5190003529F4 /* PECRestoranViewCtr.m */; };
+		84D82FB618BB5191003529F4 /* PECSettingsViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F9918BB5191003529F4 /* PECSettingsViewCtrl.m */; };
+		84D82FB718BB5191003529F4 /* PECTableActionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F9B18BB5191003529F4 /* PECTableActionCell.m */; };
+		84D82FB818BB5191003529F4 /* PECVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F9D18BB5191003529F4 /* PECVenue.m */; };
+		84D82FB918BB5191003529F4 /* PECVenueParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82F9F18BB5191003529F4 /* PECVenueParser.m */; };
+		84D82FBA18BB5191003529F4 /* PEVeune.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82FA118BB5191003529F4 /* PEVeune.m */; };
+		84D82FD018BB5305003529F4 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 84D82FBE18BB5305003529F4 /* CHANGELOG.md */; };
+		84D82FD118BB5305003529F4 /* Foursquare2.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82FC018BB5305003529F4 /* Foursquare2.m */; };
+		84D82FD218BB5305003529F4 /* FSOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82FC218BB5305003529F4 /* FSOAuth.m */; };
+		84D82FD318BB5305003529F4 /* FSRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82FC418BB5305003529F4 /* FSRequester.m */; };
+		84D82FD418BB5305003529F4 /* FSTargetCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82FC618BB5305003529F4 /* FSTargetCallback.m */; };
+		84D82FD518BB5305003529F4 /* FSWebLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82FC818BB5305003529F4 /* FSWebLogin.m */; };
+		84D82FD618BB5305003529F4 /* FSWebLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D82FC918BB5305003529F4 /* FSWebLogin.xib */; };
+		84D82FD718BB5305003529F4 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D82FCA18BB5305003529F4 /* pin.png */; };
+		84D82FD818BB5305003529F4 /* pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D82FCB18BB5305003529F4 /* pin@2x.png */; };
+		84D82FD918BB5305003529F4 /* poweredByFoursquare_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D82FCC18BB5305003529F4 /* poweredByFoursquare_gray.png */; };
+		84D82FDA18BB5305003529F4 /* poweredByFoursquare_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D82FCD18BB5305003529F4 /* poweredByFoursquare_gray@2x.png */; };
+		84D82FDD18BB5341003529F4 /* CheckinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82FDC18BB5341003529F4 /* CheckinViewController.m */; };
+		84D82FE218BB5363003529F4 /* FSConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82FDF18BB5363003529F4 /* FSConverter.m */; };
+		84D82FE318BB5363003529F4 /* FSVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D82FE118BB5363003529F4 /* FSVenue.m */; };
+		84D82FE518BB5383003529F4 /* testimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D82FE418BB5383003529F4 /* testimage@2x.png */; };
+		84D82FEA18BB554A003529F4 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D82FE918BB554A003529F4 /* FacebookSDK.framework */; };
 		84EB000018B755C50009C741 /* clock_ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EBFFD518B755C50009C741 /* clock_ico.png */; };
 		84EB000118B755C50009C741 /* date_ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EBFFD618B755C50009C741 /* date_ico.png */; };
 		84EB000218B755C50009C741 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EBFFD718B755C50009C741 /* Default.png */; };
@@ -102,6 +147,86 @@
 		84485FD618B748D1004B55FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84485FD818B748D1004B55FD /* BlueCarteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueCarteTests.m; sourceTree = "<group>"; };
 		84D82EC318BB39E7003529F4 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		84D82F5818BB4229003529F4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		84D82F6618BB50F2003529F4 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		84D82F6718BB50F2003529F4 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		84D82F6818BB50F2003529F4 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		84D82F6918BB50F2003529F4 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		84D82F6A18BB50F2003529F4 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		84D82F6B18BB50F2003529F4 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		84D82F6C18BB50F2003529F4 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		84D82F6D18BB50F2003529F4 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		84D82F7218BB518F003529F4 /* PECActionScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PECActionScreen.xib; path = BlueCarte/PECActionScreen.xib; sourceTree = SOURCE_ROOT; };
+		84D82F7418BB518F003529F4 /* PECAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECAnnotation.h; path = BlueCarte/PECAnnotation.h; sourceTree = SOURCE_ROOT; };
+		84D82F7518BB518F003529F4 /* PECAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECAnnotation.m; path = BlueCarte/PECAnnotation.m; sourceTree = SOURCE_ROOT; };
+		84D82F7618BB518F003529F4 /* PECBuilderCards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECBuilderCards.h; path = BlueCarte/PECBuilderCards.h; sourceTree = SOURCE_ROOT; };
+		84D82F7718BB518F003529F4 /* PECBuilderCards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECBuilderCards.m; path = BlueCarte/PECBuilderCards.m; sourceTree = SOURCE_ROOT; };
+		84D82F7818BB518F003529F4 /* PECBuilderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECBuilderModel.h; path = BlueCarte/PECBuilderModel.h; sourceTree = SOURCE_ROOT; };
+		84D82F7918BB518F003529F4 /* PECBuilderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECBuilderModel.m; path = BlueCarte/PECBuilderModel.m; sourceTree = SOURCE_ROOT; };
+		84D82F7A18BB518F003529F4 /* PECDetailViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECDetailViewCtrl.h; path = BlueCarte/PECDetailViewCtrl.h; sourceTree = SOURCE_ROOT; };
+		84D82F7B18BB518F003529F4 /* PECDetailViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECDetailViewCtrl.m; path = BlueCarte/PECDetailViewCtrl.m; sourceTree = SOURCE_ROOT; };
+		84D82F7C18BB518F003529F4 /* PECMainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECMainModel.h; path = BlueCarte/PECMainModel.h; sourceTree = SOURCE_ROOT; };
+		84D82F7D18BB518F003529F4 /* PECMainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECMainModel.m; path = BlueCarte/PECMainModel.m; sourceTree = SOURCE_ROOT; };
+		84D82F7E18BB518F003529F4 /* PECMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECMainViewController.h; path = BlueCarte/PECMainViewController.h; sourceTree = SOURCE_ROOT; };
+		84D82F7F18BB518F003529F4 /* PECMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECMainViewController.m; path = BlueCarte/PECMainViewController.m; sourceTree = SOURCE_ROOT; };
+		84D82F8018BB518F003529F4 /* PECMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECMapViewController.h; path = BlueCarte/PECMapViewController.h; sourceTree = SOURCE_ROOT; };
+		84D82F8118BB518F003529F4 /* PECMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECMapViewController.m; path = BlueCarte/PECMapViewController.m; sourceTree = SOURCE_ROOT; };
+		84D82F8218BB518F003529F4 /* PECMenuViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECMenuViewCtrl.h; path = BlueCarte/PECMenuViewCtrl.h; sourceTree = SOURCE_ROOT; };
+		84D82F8318BB518F003529F4 /* PECMenuViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECMenuViewCtrl.m; path = BlueCarte/PECMenuViewCtrl.m; sourceTree = SOURCE_ROOT; };
+		84D82F8418BB518F003529F4 /* PECModelDataCards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECModelDataCards.h; path = BlueCarte/PECModelDataCards.h; sourceTree = SOURCE_ROOT; };
+		84D82F8518BB5190003529F4 /* PECModelDataCards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECModelDataCards.m; path = BlueCarte/PECModelDataCards.m; sourceTree = SOURCE_ROOT; };
+		84D82F8618BB5190003529F4 /* PECModelDataUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECModelDataUser.h; path = BlueCarte/PECModelDataUser.h; sourceTree = SOURCE_ROOT; };
+		84D82F8718BB5190003529F4 /* PECModelDataUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECModelDataUser.m; path = BlueCarte/PECModelDataUser.m; sourceTree = SOURCE_ROOT; };
+		84D82F8818BB5190003529F4 /* PECModelsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECModelsData.h; path = BlueCarte/PECModelsData.h; sourceTree = SOURCE_ROOT; };
+		84D82F8918BB5190003529F4 /* PECModelsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECModelsData.m; path = BlueCarte/PECModelsData.m; sourceTree = SOURCE_ROOT; };
+		84D82F8A18BB5190003529F4 /* PECModelUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECModelUser.h; path = BlueCarte/PECModelUser.h; sourceTree = SOURCE_ROOT; };
+		84D82F8B18BB5190003529F4 /* PECModelUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECModelUser.m; path = BlueCarte/PECModelUser.m; sourceTree = SOURCE_ROOT; };
+		84D82F8C18BB5190003529F4 /* PECNetworkDataCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECNetworkDataCtrl.h; path = BlueCarte/PECNetworkDataCtrl.h; sourceTree = SOURCE_ROOT; };
+		84D82F8D18BB5190003529F4 /* PECNetworkDataCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECNetworkDataCtrl.m; path = BlueCarte/PECNetworkDataCtrl.m; sourceTree = SOURCE_ROOT; };
+		84D82F8E18BB5190003529F4 /* PECObjectCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECObjectCard.h; path = BlueCarte/PECObjectCard.h; sourceTree = SOURCE_ROOT; };
+		84D82F8F18BB5190003529F4 /* PECObjectCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECObjectCard.m; path = BlueCarte/PECObjectCard.m; sourceTree = SOURCE_ROOT; };
+		84D82F9018BB5190003529F4 /* PECPriceViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECPriceViewCtrl.h; path = BlueCarte/PECPriceViewCtrl.h; sourceTree = SOURCE_ROOT; };
+		84D82F9118BB5190003529F4 /* PECPriceViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECPriceViewCtrl.m; path = BlueCarte/PECPriceViewCtrl.m; sourceTree = SOURCE_ROOT; };
+		84D82F9218BB5190003529F4 /* PECRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECRegistrationViewController.h; path = BlueCarte/PECRegistrationViewController.h; sourceTree = SOURCE_ROOT; };
+		84D82F9318BB5190003529F4 /* PECRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECRegistrationViewController.m; path = BlueCarte/PECRegistrationViewController.m; sourceTree = SOURCE_ROOT; };
+		84D82F9418BB5190003529F4 /* PECRegViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECRegViewCtrl.h; path = BlueCarte/PECRegViewCtrl.h; sourceTree = SOURCE_ROOT; };
+		84D82F9518BB5190003529F4 /* PECRegViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECRegViewCtrl.m; path = BlueCarte/PECRegViewCtrl.m; sourceTree = SOURCE_ROOT; };
+		84D82F9618BB5190003529F4 /* PECRestoranViewCtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECRestoranViewCtr.h; path = BlueCarte/PECRestoranViewCtr.h; sourceTree = SOURCE_ROOT; };
+		84D82F9718BB5190003529F4 /* PECRestoranViewCtr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECRestoranViewCtr.m; path = BlueCarte/PECRestoranViewCtr.m; sourceTree = SOURCE_ROOT; };
+		84D82F9818BB5191003529F4 /* PECSettingsViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECSettingsViewCtrl.h; path = BlueCarte/PECSettingsViewCtrl.h; sourceTree = SOURCE_ROOT; };
+		84D82F9918BB5191003529F4 /* PECSettingsViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECSettingsViewCtrl.m; path = BlueCarte/PECSettingsViewCtrl.m; sourceTree = SOURCE_ROOT; };
+		84D82F9A18BB5191003529F4 /* PECTableActionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECTableActionCell.h; path = BlueCarte/PECTableActionCell.h; sourceTree = SOURCE_ROOT; };
+		84D82F9B18BB5191003529F4 /* PECTableActionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECTableActionCell.m; path = BlueCarte/PECTableActionCell.m; sourceTree = SOURCE_ROOT; };
+		84D82F9C18BB5191003529F4 /* PECVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECVenue.h; path = BlueCarte/PECVenue.h; sourceTree = SOURCE_ROOT; };
+		84D82F9D18BB5191003529F4 /* PECVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECVenue.m; path = BlueCarte/PECVenue.m; sourceTree = SOURCE_ROOT; };
+		84D82F9E18BB5191003529F4 /* PECVenueParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PECVenueParser.h; path = BlueCarte/PECVenueParser.h; sourceTree = SOURCE_ROOT; };
+		84D82F9F18BB5191003529F4 /* PECVenueParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PECVenueParser.m; path = BlueCarte/PECVenueParser.m; sourceTree = SOURCE_ROOT; };
+		84D82FA018BB5191003529F4 /* PEVeune.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PEVeune.h; path = BlueCarte/PEVeune.h; sourceTree = SOURCE_ROOT; };
+		84D82FA118BB5191003529F4 /* PEVeune.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PEVeune.m; path = BlueCarte/PEVeune.m; sourceTree = SOURCE_ROOT; };
+		84D82FBE18BB5305003529F4 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		84D82FBF18BB5305003529F4 /* Foursquare2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foursquare2.h; sourceTree = "<group>"; };
+		84D82FC018BB5305003529F4 /* Foursquare2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foursquare2.m; sourceTree = "<group>"; };
+		84D82FC118BB5305003529F4 /* FSOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSOAuth.h; sourceTree = "<group>"; };
+		84D82FC218BB5305003529F4 /* FSOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSOAuth.m; sourceTree = "<group>"; };
+		84D82FC318BB5305003529F4 /* FSRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSRequester.h; sourceTree = "<group>"; };
+		84D82FC418BB5305003529F4 /* FSRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSRequester.m; sourceTree = "<group>"; };
+		84D82FC518BB5305003529F4 /* FSTargetCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTargetCallback.h; sourceTree = "<group>"; };
+		84D82FC618BB5305003529F4 /* FSTargetCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTargetCallback.m; sourceTree = "<group>"; };
+		84D82FC718BB5305003529F4 /* FSWebLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWebLogin.h; sourceTree = "<group>"; };
+		84D82FC818BB5305003529F4 /* FSWebLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWebLogin.m; sourceTree = "<group>"; };
+		84D82FC918BB5305003529F4 /* FSWebLogin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSWebLogin.xib; sourceTree = "<group>"; };
+		84D82FCA18BB5305003529F4 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		84D82FCB18BB5305003529F4 /* pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin@2x.png"; sourceTree = "<group>"; };
+		84D82FCC18BB5305003529F4 /* poweredByFoursquare_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poweredByFoursquare_gray.png; sourceTree = "<group>"; };
+		84D82FCD18BB5305003529F4 /* poweredByFoursquare_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poweredByFoursquare_gray@2x.png"; sourceTree = "<group>"; };
+		84D82FDB18BB5341003529F4 /* CheckinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckinViewController.h; sourceTree = "<group>"; };
+		84D82FDC18BB5341003529F4 /* CheckinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckinViewController.m; sourceTree = "<group>"; };
+		84D82FDE18BB5363003529F4 /* FSConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSConverter.h; sourceTree = "<group>"; };
+		84D82FDF18BB5363003529F4 /* FSConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSConverter.m; sourceTree = "<group>"; };
+		84D82FE018BB5363003529F4 /* FSVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSVenue.h; sourceTree = "<group>"; };
+		84D82FE118BB5363003529F4 /* FSVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSVenue.m; sourceTree = "<group>"; };
+		84D82FE418BB5383003529F4 /* testimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testimage@2x.png"; sourceTree = "<group>"; };
+		84D82FE918BB554A003529F4 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../LIBRARY/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		84EB002118B771930009C741 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		84EB002218B771930009C741 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		84EBFFC718B755C50009C741 /* ava_small1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ava_small1.png; sourceTree = "<group>"; };
@@ -154,6 +279,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D82F5918BB4229003529F4 /* CoreData.framework in Frameworks */,
+				84D82FEA18BB554A003529F4 /* FacebookSDK.framework in Frameworks */,
 				84485FAD18B748D1004B55FD /* CoreGraphics.framework in Frameworks */,
 				84485FAF18B748D1004B55FD /* UIKit.framework in Frameworks */,
 				84485FAB18B748D1004B55FD /* Foundation.framework in Frameworks */,
@@ -197,6 +324,8 @@
 		84485FA918B748D1004B55FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84D82FE918BB554A003529F4 /* FacebookSDK.framework */,
+				84D82F5818BB4229003529F4 /* CoreData.framework */,
 				84485FAA18B748D1004B55FD /* Foundation.framework */,
 				84485FAC18B748D1004B55FD /* CoreGraphics.framework */,
 				84485FAE18B748D1004B55FD /* UIKit.framework */,
@@ -208,14 +337,10 @@
 		84485FB018B748D1004B55FD /* BlueCarte */ = {
 			isa = PBXGroup;
 			children = (
-				84EBFFC618B755C50009C741 /* Images */,
-				84EBFFC518B755BC0009C741 /* CoreData */,
-				84EB001D18B755CF0009C741 /* ViewControllers */,
-				84485FB918B748D1004B55FD /* PECAppDelegate.h */,
-				84485FBA18B748D1004B55FD /* PECAppDelegate.m */,
-				84485FBC18B748D1004B55FD /* Main_iPhone.storyboard */,
-				84485FBF18B748D1004B55FD /* Main_iPad.storyboard */,
-				84485FC518B748D1004B55FD /* Images.xcassets */,
+				84D82F6418BB509E003529F4 /* LIB */,
+				84D82F6318BB5075003529F4 /* MODEL */,
+				84D82F6218BB506A003529F4 /* VIEW */,
+				84D82F6118BB505F003529F4 /* CONTROLLER */,
 				84485FB118B748D1004B55FD /* Supporting Files */,
 			);
 			path = BlueCarte;
@@ -250,9 +375,181 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		84D82F6118BB505F003529F4 /* CONTROLLER */ = {
+			isa = PBXGroup;
+			children = (
+				84EB001D18B755CF0009C741 /* ViewControllers */,
+				84485FB918B748D1004B55FD /* PECAppDelegate.h */,
+				84485FBA18B748D1004B55FD /* PECAppDelegate.m */,
+			);
+			name = CONTROLLER;
+			sourceTree = "<group>";
+		};
+		84D82F6218BB506A003529F4 /* VIEW */ = {
+			isa = PBXGroup;
+			children = (
+				84EBFFC618B755C50009C741 /* Images */,
+				84485FBC18B748D1004B55FD /* Main_iPhone.storyboard */,
+				84485FBF18B748D1004B55FD /* Main_iPad.storyboard */,
+				84485FC518B748D1004B55FD /* Images.xcassets */,
+			);
+			name = VIEW;
+			sourceTree = "<group>";
+		};
+		84D82F6318BB5075003529F4 /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				84EBFFC518B755BC0009C741 /* CoreData */,
+				84D82EC218BB39E7003529F4 /* Model.xcdatamodeld */,
+			);
+			name = MODEL;
+			sourceTree = "<group>";
+		};
+		84D82F6418BB509E003529F4 /* LIB */ = {
+			isa = PBXGroup;
+			children = (
+				84D82FBB18BB52E6003529F4 /* AUTH */,
+				84D82F6518BB50F2003529F4 /* TPKeyboardAvoiding */,
+			);
+			path = LIB;
+			sourceTree = "<group>";
+		};
+		84D82F6518BB50F2003529F4 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				84D82F6618BB50F2003529F4 /* TPKeyboardAvoidingCollectionView.h */,
+				84D82F6718BB50F2003529F4 /* TPKeyboardAvoidingCollectionView.m */,
+				84D82F6818BB50F2003529F4 /* TPKeyboardAvoidingScrollView.h */,
+				84D82F6918BB50F2003529F4 /* TPKeyboardAvoidingScrollView.m */,
+				84D82F6A18BB50F2003529F4 /* TPKeyboardAvoidingTableView.h */,
+				84D82F6B18BB50F2003529F4 /* TPKeyboardAvoidingTableView.m */,
+				84D82F6C18BB50F2003529F4 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				84D82F6D18BB50F2003529F4 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			name = TPKeyboardAvoiding;
+			path = ../../../LIBRARY/PetrovichFriends/TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		84D82FBB18BB52E6003529F4 /* AUTH */ = {
+			isa = PBXGroup;
+			children = (
+				84D82FE618BB5399003529F4 /* FACEBOOK */,
+				84D82FBC18BB52EC003529F4 /* 4SQ */,
+			);
+			name = AUTH;
+			sourceTree = "<group>";
+		};
+		84D82FBC18BB52EC003529F4 /* 4SQ */ = {
+			isa = PBXGroup;
+			children = (
+				84D82FE418BB5383003529F4 /* testimage@2x.png */,
+				84D82FDE18BB5363003529F4 /* FSConverter.h */,
+				84D82FDF18BB5363003529F4 /* FSConverter.m */,
+				84D82FE018BB5363003529F4 /* FSVenue.h */,
+				84D82FE118BB5363003529F4 /* FSVenue.m */,
+				84D82FDB18BB5341003529F4 /* CheckinViewController.h */,
+				84D82FDC18BB5341003529F4 /* CheckinViewController.m */,
+				84D82FBD18BB5305003529F4 /* Foursquare2 */,
+			);
+			name = 4SQ;
+			sourceTree = "<group>";
+		};
+		84D82FBD18BB5305003529F4 /* Foursquare2 */ = {
+			isa = PBXGroup;
+			children = (
+				84D82FBE18BB5305003529F4 /* CHANGELOG.md */,
+				84D82FBF18BB5305003529F4 /* Foursquare2.h */,
+				84D82FC018BB5305003529F4 /* Foursquare2.m */,
+				84D82FC118BB5305003529F4 /* FSOAuth.h */,
+				84D82FC218BB5305003529F4 /* FSOAuth.m */,
+				84D82FC318BB5305003529F4 /* FSRequester.h */,
+				84D82FC418BB5305003529F4 /* FSRequester.m */,
+				84D82FC518BB5305003529F4 /* FSTargetCallback.h */,
+				84D82FC618BB5305003529F4 /* FSTargetCallback.m */,
+				84D82FC718BB5305003529F4 /* FSWebLogin.h */,
+				84D82FC818BB5305003529F4 /* FSWebLogin.m */,
+				84D82FC918BB5305003529F4 /* FSWebLogin.xib */,
+				84D82FCA18BB5305003529F4 /* pin.png */,
+				84D82FCB18BB5305003529F4 /* pin@2x.png */,
+				84D82FCC18BB5305003529F4 /* poweredByFoursquare_gray.png */,
+				84D82FCD18BB5305003529F4 /* poweredByFoursquare_gray@2x.png */,
+				84D82FCE18BB5305003529F4 /* submodule */,
+			);
+			path = Foursquare2;
+			sourceTree = "<group>";
+		};
+		84D82FCE18BB5305003529F4 /* submodule */ = {
+			isa = PBXGroup;
+			children = (
+				84D82FCF18BB5305003529F4 /* foursquare-ios-oauth */,
+			);
+			path = submodule;
+			sourceTree = "<group>";
+		};
+		84D82FCF18BB5305003529F4 /* foursquare-ios-oauth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "foursquare-ios-oauth";
+			sourceTree = "<group>";
+		};
+		84D82FE618BB5399003529F4 /* FACEBOOK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FACEBOOK;
+			sourceTree = "<group>";
+		};
 		84EB001D18B755CF0009C741 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				84D82F7218BB518F003529F4 /* PECActionScreen.xib */,
+				84D82F7418BB518F003529F4 /* PECAnnotation.h */,
+				84D82F7518BB518F003529F4 /* PECAnnotation.m */,
+				84D82F7618BB518F003529F4 /* PECBuilderCards.h */,
+				84D82F7718BB518F003529F4 /* PECBuilderCards.m */,
+				84D82F7818BB518F003529F4 /* PECBuilderModel.h */,
+				84D82F7918BB518F003529F4 /* PECBuilderModel.m */,
+				84D82F7A18BB518F003529F4 /* PECDetailViewCtrl.h */,
+				84D82F7B18BB518F003529F4 /* PECDetailViewCtrl.m */,
+				84D82F7C18BB518F003529F4 /* PECMainModel.h */,
+				84D82F7D18BB518F003529F4 /* PECMainModel.m */,
+				84D82F7E18BB518F003529F4 /* PECMainViewController.h */,
+				84D82F7F18BB518F003529F4 /* PECMainViewController.m */,
+				84D82F8018BB518F003529F4 /* PECMapViewController.h */,
+				84D82F8118BB518F003529F4 /* PECMapViewController.m */,
+				84D82F8218BB518F003529F4 /* PECMenuViewCtrl.h */,
+				84D82F8318BB518F003529F4 /* PECMenuViewCtrl.m */,
+				84D82F8418BB518F003529F4 /* PECModelDataCards.h */,
+				84D82F8518BB5190003529F4 /* PECModelDataCards.m */,
+				84D82F8618BB5190003529F4 /* PECModelDataUser.h */,
+				84D82F8718BB5190003529F4 /* PECModelDataUser.m */,
+				84D82F8818BB5190003529F4 /* PECModelsData.h */,
+				84D82F8918BB5190003529F4 /* PECModelsData.m */,
+				84D82F8A18BB5190003529F4 /* PECModelUser.h */,
+				84D82F8B18BB5190003529F4 /* PECModelUser.m */,
+				84D82F8C18BB5190003529F4 /* PECNetworkDataCtrl.h */,
+				84D82F8D18BB5190003529F4 /* PECNetworkDataCtrl.m */,
+				84D82F8E18BB5190003529F4 /* PECObjectCard.h */,
+				84D82F8F18BB5190003529F4 /* PECObjectCard.m */,
+				84D82F9018BB5190003529F4 /* PECPriceViewCtrl.h */,
+				84D82F9118BB5190003529F4 /* PECPriceViewCtrl.m */,
+				84D82F9218BB5190003529F4 /* PECRegistrationViewController.h */,
+				84D82F9318BB5190003529F4 /* PECRegistrationViewController.m */,
+				84D82F9418BB5190003529F4 /* PECRegViewCtrl.h */,
+				84D82F9518BB5190003529F4 /* PECRegViewCtrl.m */,
+				84D82F9618BB5190003529F4 /* PECRestoranViewCtr.h */,
+				84D82F9718BB5190003529F4 /* PECRestoranViewCtr.m */,
+				84D82F9818BB5191003529F4 /* PECSettingsViewCtrl.h */,
+				84D82F9918BB5191003529F4 /* PECSettingsViewCtrl.m */,
+				84D82F9A18BB5191003529F4 /* PECTableActionCell.h */,
+				84D82F9B18BB5191003529F4 /* PECTableActionCell.m */,
+				84D82F9C18BB5191003529F4 /* PECVenue.h */,
+				84D82F9D18BB5191003529F4 /* PECVenue.m */,
+				84D82F9E18BB5191003529F4 /* PECVenueParser.h */,
+				84D82F9F18BB5191003529F4 /* PECVenueParser.m */,
+				84D82FA018BB5191003529F4 /* PEVeune.h */,
+				84D82FA118BB5191003529F4 /* PEVeune.m */,
 				84485FC218B748D1004B55FD /* PECViewController.h */,
 				84485FC318B748D1004B55FD /* PECViewController.m */,
 			);
@@ -262,7 +559,6 @@
 		84EBFFC518B755BC0009C741 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				84D82EC218BB39E7003529F4 /* Model.xcdatamodeld */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -396,16 +692,20 @@
 			files = (
 				84EB001518B755C50009C741 /* pagination@2x.png in Resources */,
 				84EBFFF818B755C50009C741 /* banner_food3.png in Resources */,
+				84D82FA218BB5191003529F4 /* PECActionScreen.xib in Resources */,
 				84EB000C18B755C50009C741 /* icon_120.png in Resources */,
 				84EB001818B755C50009C741 /* pin_paladin@2x.png in Resources */,
 				84EB002418B771930009C741 /* Default.png in Resources */,
 				84EB000B18B755C50009C741 /* icon_114.png in Resources */,
 				84485FC118B748D1004B55FD /* Main_iPad.storyboard in Resources */,
+				84D82FD918BB5305003529F4 /* poweredByFoursquare_gray.png in Resources */,
 				84EB000418B755C50009C741 /* email_ico.png in Resources */,
+				84D82FD718BB5305003529F4 /* pin.png in Resources */,
 				84EBFFF318B755C50009C741 /* ava_small2.png in Resources */,
 				84EB001218B755C50009C741 /* menu_ico@2x.png in Resources */,
 				84EB000A18B755C50009C741 /* gp@2x.png in Resources */,
 				84485FC618B748D1004B55FD /* Images.xcassets in Resources */,
+				84D82FD018BB5305003529F4 /* CHANGELOG.md in Resources */,
 				84EB001318B755C50009C741 /* next_ico@2x.png in Resources */,
 				84EB000218B755C50009C741 /* Default.png in Resources */,
 				84EB001918B755C50009C741 /* price_baloon@2x.png in Resources */,
@@ -429,9 +729,11 @@
 				84EB000518B755C50009C741 /* fc@2x.png in Resources */,
 				84EBFFFB18B755C50009C741 /* banner_rest1.png in Resources */,
 				84485FBE18B748D1004B55FD /* Main_iPhone.storyboard in Resources */,
+				84D82FD818BB5305003529F4 /* pin@2x.png in Resources */,
 				84EBFFFE18B755C50009C741 /* banner_small_promo3.png in Resources */,
 				84485FB518B748D1004B55FD /* InfoPlist.strings in Resources */,
 				84EB000D18B755C50009C741 /* logo@2x.png in Resources */,
+				84D82FE518BB5383003529F4 /* testimage@2x.png in Resources */,
 				84EBFFFC18B755C50009C741 /* banner_small_promo1.png in Resources */,
 				84EBFFF718B755C50009C741 /* banner_food2.png in Resources */,
 				84EB001618B755C50009C741 /* pagination_active@2x.png in Resources */,
@@ -441,8 +743,10 @@
 				84EB000918B755C50009C741 /* geo_ico.png in Resources */,
 				84EB001C18B755C50009C741 /* user_ico.png in Resources */,
 				84EB001118B755C50009C741 /* map_baloon@2x.png in Resources */,
+				84D82FDA18BB5305003529F4 /* poweredByFoursquare_gray@2x.png in Resources */,
 				84EB000E18B755C50009C741 /* logo_full@2x.png in Resources */,
 				84EB001A18B755C50009C741 /* profile@2x.png in Resources */,
+				84D82FD618BB5305003529F4 /* FSWebLogin.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,10 +765,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D82FA518BB5191003529F4 /* PECBuilderCards.m in Sources */,
+				84D82FD318BB5305003529F4 /* FSRequester.m in Sources */,
+				84D82F6E18BB50F2003529F4 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				84D82FE218BB5363003529F4 /* FSConverter.m in Sources */,
+				84D82FE318BB5363003529F4 /* FSVenue.m in Sources */,
+				84D82FB218BB5191003529F4 /* PECPriceViewCtrl.m in Sources */,
+				84D82FA918BB5191003529F4 /* PECMainViewController.m in Sources */,
+				84D82FB318BB5191003529F4 /* PECRegistrationViewController.m in Sources */,
+				84D82FB418BB5191003529F4 /* PECRegViewCtrl.m in Sources */,
 				84485FC418B748D1004B55FD /* PECViewController.m in Sources */,
+				84D82FD118BB5305003529F4 /* Foursquare2.m in Sources */,
+				84D82F7018BB50F2003529F4 /* TPKeyboardAvoidingTableView.m in Sources */,
+				84D82FB818BB5191003529F4 /* PECVenue.m in Sources */,
+				84D82FAD18BB5191003529F4 /* PECModelDataUser.m in Sources */,
+				84D82FB718BB5191003529F4 /* PECTableActionCell.m in Sources */,
+				84D82FDD18BB5341003529F4 /* CheckinViewController.m in Sources */,
+				84D82FAC18BB5191003529F4 /* PECModelDataCards.m in Sources */,
+				84D82FD218BB5305003529F4 /* FSOAuth.m in Sources */,
+				84D82FB118BB5191003529F4 /* PECObjectCard.m in Sources */,
+				84D82FB918BB5191003529F4 /* PECVenueParser.m in Sources */,
 				84485FB718B748D1004B55FD /* main.m in Sources */,
+				84D82FAA18BB5191003529F4 /* PECMapViewController.m in Sources */,
+				84D82FA618BB5191003529F4 /* PECBuilderModel.m in Sources */,
+				84D82FB018BB5191003529F4 /* PECNetworkDataCtrl.m in Sources */,
+				84D82FB518BB5191003529F4 /* PECRestoranViewCtr.m in Sources */,
+				84D82FAE18BB5191003529F4 /* PECModelsData.m in Sources */,
+				84D82FA418BB5191003529F4 /* PECAnnotation.m in Sources */,
+				84D82FAB18BB5191003529F4 /* PECMenuViewCtrl.m in Sources */,
+				84D82FAF18BB5191003529F4 /* PECModelUser.m in Sources */,
+				84D82F6F18BB50F2003529F4 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				84D82FBA18BB5191003529F4 /* PEVeune.m in Sources */,
+				84D82F7118BB50F2003529F4 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				84D82FA718BB5191003529F4 /* PECDetailViewCtrl.m in Sources */,
 				84485FBB18B748D1004B55FD /* PECAppDelegate.m in Sources */,
+				84D82FD518BB5305003529F4 /* FSWebLogin.m in Sources */,
 				84D82EC418BB39E7003529F4 /* Model.xcdatamodeld in Sources */,
+				84D82FD418BB5305003529F4 /* FSTargetCallback.m in Sources */,
+				84D82FB618BB5191003529F4 /* PECSettingsViewCtrl.m in Sources */,
+				84D82FA818BB5191003529F4 /* PECMainModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,6 +938,11 @@
 		84485FDD18B748D1004B55FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Admin/Documents/FacebookSDK,
+					/Users/Admin/Documents/PROJECT/LIBRARY/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlueCarte/BlueCarte-Prefix.pch";
 				INFOPLIST_FILE = "BlueCarte/BlueCarte-Info.plist";
@@ -611,6 +955,11 @@
 		84485FDE18B748D1004B55FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Admin/Documents/FacebookSDK,
+					/Users/Admin/Documents/PROJECT/LIBRARY/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlueCarte/BlueCarte-Prefix.pch";
 				INFOPLIST_FILE = "BlueCarte/BlueCarte-Info.plist";
@@ -701,7 +1050,8 @@
 				84D82EC318BB39E7003529F4 /* Model.xcdatamodel */,
 			);
 			currentVersion = 84D82EC318BB39E7003529F4 /* Model.xcdatamodel */;
-			path = Model.xcdatamodeld;
+			name = Model.xcdatamodeld;
+			path = CoreData/Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
