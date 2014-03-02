@@ -7,8 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FacebookSDK/FacebookSDK.h>
+#import "Foursquare2.h"
+
+@class PECRegViewCtrl;
 
 @interface PECAppDelegate : UIResponder <UIApplicationDelegate>
+
+
+- (void)openFacebookSession;
+- (void)closeFacebookSession;
 
 @property (strong, nonatomic) UIWindow *window;
 
